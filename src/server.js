@@ -4,7 +4,7 @@ const PORT = 4000;
 
 const app = express();
 
-const handleHome = (req, res) => {
+const handleHome = (req, res, next) => {
   return res.end();
 };
 
