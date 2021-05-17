@@ -7,7 +7,8 @@ const app = express();
 const logger = morgan("dev");
 
 const home = (req, res) => {
-  return res.send("home");
+  console.log("I will respond");
+  return res.send("hello");
 };
 
 const login = (req, res) => {
